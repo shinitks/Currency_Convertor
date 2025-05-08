@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class CurrencyConvertMaterialPage extends StatelessWidget {
@@ -19,7 +20,7 @@ class CurrencyConvertMaterialPage extends StatelessWidget {
       backgroundColor: const Color.fromRGBO(0, 0, 0, 1),
       body: Center(
         child: ColoredBox(
-          color: const Color.fromRGBO(66, 124, 121, 1),
+          color: const Color.fromARGB(255, 147, 244, 239),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -31,22 +32,35 @@ class CurrencyConvertMaterialPage extends StatelessWidget {
                   color: Color.fromRGBO(92, 115, 190, 1),
                 ),
               ),
-              TextField(
-                style: const TextStyle(
-                  color: Color.fromRGBO(2, 2, 2, 1),
-                ),
-                decoration: InputDecoration(
-                  hintText: 'Please enter the amount in USD',
-                  hintStyle: const TextStyle(
-                    color: Color.fromRGBO(2, 2, 2, 1),
+
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextField(
+                  style: const TextStyle(color: Color.fromRGBO(2, 2, 2, 1)),
+                  decoration: InputDecoration(
+                    hintText: 'Please enter the amount in USD',
+                    hintStyle: const TextStyle(
+                      color: Color.fromRGBO(2, 2, 2, 1),
+                    ),
+                    prefixIcon: const Icon(Icons.monetization_on),
+                    prefixIconColor: const Color.fromRGBO(0, 0, 0, 1),
+                    filled: true,
+                    fillColor: const Color.fromRGBO(255, 255, 255, 1),
+                    enabledBorder: border,
+                    focusedBorder: border,
                   ),
-                  prefixIcon: const Icon(Icons.monetization_on),
-                  prefixIconColor: const Color.fromRGBO(0, 0, 0, 1),
-                  filled: true,
-                  fillColor: const Color.fromRGBO(255, 255, 255, 1),
-                  enabledBorder: border,
-                  focusedBorder: border,
+                  keyboardType: const TextInputType.numberWithOptions(
+                    decimal: true,
+                  ),
                 ),
+              ),
+              TextButton(
+                onPressed: () {
+                  if (kDebugMode) {
+                    print('Button clicked');
+                  }
+                },
+                child: const Text('Click Me'),
               ),
             ],
           ),
