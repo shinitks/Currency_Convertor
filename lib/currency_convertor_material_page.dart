@@ -18,6 +18,12 @@ class CurrencyConvertMaterialPage extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: const Color.fromRGBO(0, 0, 0, 1),
+      appBar: AppBar(
+        backgroundColor:Color.fromARGB(255, 147, 244, 239) ,
+        elevation: 0,
+        title:const Text('Currency Convertor'),
+        centerTitle: true,
+      ),
       body: Center(
         child: ColoredBox(
           color: const Color.fromARGB(255, 147, 244, 239),
