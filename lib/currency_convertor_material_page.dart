@@ -29,23 +29,23 @@ class _CurrencyConvertorMaterialPageState
     return Scaffold(
       backgroundColor: const Color.fromRGBO(0, 0, 0, 1),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 147, 244, 239),
+        backgroundColor: Color.fromRGBO(148, 180, 193, 1),
         elevation: 0,
-        title: const Text('Currency Convertor'),
+        title: const Text('Currency Convertor',style: TextStyle(color: Color.fromRGBO(0, 0, 0, 1),fontSize: 30,fontWeight: FontWeight.bold,fontFamily: 'San Francisco',),),
         centerTitle: true,
       ),
       body: Center(
         child: ColoredBox(
-          color: const Color.fromARGB(255, 147, 244, 239),
+          color: const Color.fromRGBO(148, 180, 193, 1),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                result.toString(),
+                'INR ${result.toStringAsFixed(2)}',
                 style: const TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromRGBO(92, 115, 190, 1),
+                  color: Color.fromRGBO(0, 0, 0, 1),
                 ),
               ),
 
@@ -76,7 +76,7 @@ class _CurrencyConvertorMaterialPageState
                 child: ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      result = double.parse(textEditingController.text) * 81;
+                      result = double.parse(textEditingController.text) * 85.07;
                     });
                     if (kDebugMode) {
                       print(textEditingController.text);
