@@ -18,31 +18,22 @@ A basic Flutter app to convert currency (USD input). It features a clean UI with
 lib/
 ├── main.dart # App entry point
 
-└── currency_convert_material_page.dart # UI screen with input field
+  └── currency_convert_material_page.dart # UI screen with input field
 
 ---
 
 ## 🚀 Getting Started
 
 1. **Clone the repo**  
-```bash
+
 git clone https://github.com/your-username/currency-converter.git
 cd currency-converter
-Install dependencies
+Install dependencies - flutter pub get
+Run the app - flutter run
 
-bash
-Copy
-Edit
-flutter pub get
-Run the app
-
-bash
-Copy
-Edit
-flutter run
 🛠️ Tech Used
-Flutter
 
+Flutter
 Dart
 
 📌 To Do
