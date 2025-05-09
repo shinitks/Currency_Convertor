@@ -24,7 +24,7 @@ lib/
 
 1. **Clone the repo**  
 
-git clone https://github.com/shinitks/Currency-Converter.git
+git clone https://github.com/shinitks/Currency_Convertor.git
 
 cd currency-converter
 
