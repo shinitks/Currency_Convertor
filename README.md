@@ -17,11 +17,8 @@ A basic Flutter app to convert currency (USD input). It features a clean UI with
 
 lib/
 ├── main.dart # App entry point
-└── currency_convert_material_page.dart # UI screen with input field
 
-yaml
-Copy
-Edit
+└── currency_convert_material_page.dart # UI screen with input field
 
 ---
 
@@ -58,15 +55,7 @@ Show converted value output
 📝 License
 Free to use under MIT License.
 
-yaml
-Copy
-Edit
 
----
-
-Let me know if you'd like to add a screenshot section or conversion functionality next!
-
-1/2
 
 
 
