@@ -1,8 +1,6 @@
 # 💱 Currency Converter (Flutter)
 
-A basic Flutter app to convert currency (USD input). It features a clean UI with text input, styling, and layout setup — ready for future functionality like live exchange rates.
-
----
+ A simple Flutter application that allows users to input an amount in USD and convert it to INR. Built as a UI demonstration with customizable design.
 
 ## 📦 Features
 
@@ -26,17 +24,22 @@ lib/
 
 1. **Clone the repo**  
 
-git clone https://github.com/your-username/currency-converter.git
+git clone https://github.com/shinitks/Currency-Converter.git
+
 cd currency-converter
+
 Install dependencies - flutter pub get
+
 Run the app - flutter run
 
 🛠️ Tech Used
 
 Flutter
+
 Dart
 
 📌 To Do
+
 Add currency dropdown selection
 
 Integrate real-time conversion API
@@ -44,6 +47,7 @@ Integrate real-time conversion API
 Show converted value output
 
 📝 License
+
 Free to use under MIT License.
 
 
