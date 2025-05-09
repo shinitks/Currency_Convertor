@@ -22,40 +22,35 @@ lib/
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**  
-
+1. **Clone the Repository**
+```bash
 git clone https://github.com/shinitks/Currency_Convertor.git
+cd Currency_Convertor
+Install Dependencies
 
-cd currency-converter
+bash
+Copy
+Edit
+flutter pub get
+Run the App
 
-Install dependencies - flutter pub get
+bash
+Copy
+Edit
+flutter run
+🛠️ Tech Stack
+Flutter – UI Toolkit for building natively compiled applications
 
-Run the app - flutter run
+Dart – Optimized language for fast apps on any platform
 
-🛠️ Tech Used
+📌 To-Do List
+ Add currency dropdown selection
 
-Flutter
+ Integrate real-time currency conversion API
 
-Dart
+ Display converted value with styling
 
-📌 To Do
-
-Add currency dropdown selection
-
-Integrate real-time conversion API
-
-Show converted value output
+ Add loading and error states
 
 📝 License
-
-Free to use under MIT License.
-
-
-
-
-
-
-
-
-
-
+This project is licensed under the MIT License – feel free to use and modify it for personal or commercial projects.
