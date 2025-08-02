@@ -1,54 +1,42 @@
-# 💱 Currency Converter (Flutter)
+# 💱 Currency Converter App (Flutter)
 
- A simple Flutter application that allows users to input an amount in USD and convert it to INR. Built as a UI demonstration with customizable design.
-
-## 📦 Features
-
-- Flutter-based UI
-- TextField with custom borders and icons
-- Responsive layout with styled components
-- Structured for easy future enhancements
+A simple and beginner-friendly currency converter app built using **Flutter**. This app allows users to input an amount in **USD** and convert it to **INR** based on a fixed conversion rate.
 
 ---
 
-## 📁 Project Structure
+## 📱 Features
 
-lib/
-├── main.dart # App entry point
-
-  └── currency_convert_material_page.dart # UI screen with input field
+- Input amount in USD
+- Convert to INR using a predefined rate (85.07)
+- Simple and intuitive UI with Material Design
+- Button press triggers live conversion
+- Text validation and result formatting
+- Clean dark/light color theme combo
 
 ---
+
+## 🔧 Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Material Design Widgets**
+
+---
+
+
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository**
+### Prerequisites
 
-git clone https://github.com/shinitks/Currency_Convertor.git
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Any IDE (VS Code / Android Studio)
+- Emulator or physical device
 
-cd Currency_Convertor
+### Run the App
 
-2. **Install Dependencies**
-
+```bash
+git clone https://github.com/shinitks/Currency_Converter.git
+cd flutter_currency_converter
 flutter pub get
-
-3. **Run the App**
-
 flutter run
-
-## 🛠️ Tech Stack
-Flutter – UI Toolkit for building natively compiled applications
-
-Dart – Optimized language for fast apps on any platform
-
-## 📌 To-Do List
- Add currency dropdown selection
-
- Integrate real-time currency conversion API
-
- Display converted value with styling
-
- Add loading and error states
-
-## 📝 License
-This project is licensed under the MIT License – feel free to use and modify it for personal or commercial projects.
